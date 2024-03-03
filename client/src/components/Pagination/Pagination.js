@@ -1,23 +1,3 @@
-// import React from "react";
-// import "./Pagination.css";
-
-// const Pagination = ({ currentPage, totalPages, handlePageChange }) => {
-//   return (
-//     <div className="pagination">
-//       {Array.from({ length: totalPages }, (_, i) => (
-//         <button
-//           key={i}
-//           onClick={() => handlePageChange(i + 1)}
-//           className={currentPage === i + 1 ? "page-btn active" : "page-btn"}
-//         >
-//           {i + 1}
-//         </button>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Pagination;
 import React from "react";
 
 const Pagination = ({ currentPage, totalPages, handlePageChange }) => {

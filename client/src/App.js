@@ -5,12 +5,12 @@ import SortButton from "./components/SortButton/SortButton";
 import TableHeader from "./components/TableHeader/TableHeader";
 import TableRow from "./components/TableRow/TableRow";
 import Pagination from "./components/Pagination/Pagination";
-import "./App.css"; // Import CSS file for styling
+import "./App.css";
 
 function App() {
   const [customers, setCustomers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [sortOption, setSortOption] = useState(""); // Assuming sortOption is managed elsewhere
+  const [sortOption, setSortOption] = useState("");
   const [filteredCustomers, setFilteredCustomers] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const recordsPerPage = 20;
